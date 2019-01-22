@@ -1,0 +1,18 @@
+:host {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 100%;
+  }
+  
+  .content {
+    background: pink;
+    width:80%;
+    float:left
+  }
+
+  .sidebar{
+    background: #71FA4C;
+    width:20%;
+    float:left;
+  }
+  
