@@ -1,8 +1,9 @@
-<app-header fxLayout="column"></app-header>
-
-<div fxLayout="row" fxFlex="100">
-  <app-sidebar fxLayout="column" fxFlex="300px" *ngIf=true></app-sidebar>
-  <div class="content" fxLayout="column" fxFlex="100">
-    <router-outlet></router-outlet>
+<div fxLayout="column" fxFill>
+  <app-header fxFlex="20"></app-header>
+  <div fxLayout="row" fxFlex="80" style="height:500px">
+    <app-sidebar fxLayout="column" fxFlex="200px" *ngIf=flag></app-sidebar>
+    <div class="content" fxLayout="column" fxFlex="100">
+      <router-outlet></router-outlet>
+    </div>
   </div>
 </div>
